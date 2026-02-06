@@ -7,6 +7,10 @@
     {
       "matchPackageName": ["lombok"],
       "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
     }
   ]
 }
