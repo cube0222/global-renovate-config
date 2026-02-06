@@ -3,4 +3,10 @@
   "extends": [
     "config:best-practices"
   ]
+  "packageRules" : [
+    {
+      "matchPackageName": ["lombok"],
+      "automerge": true
+    }
+  ]
 }
